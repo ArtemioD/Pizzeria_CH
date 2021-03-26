@@ -1,0 +1,32 @@
+body {
+    /*margin: 0;
+    padding: 0;*/
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#simbolo, 
+#buscar,
+#registro {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: #000 1px solid;
+    box-sizing: border-box;
+}
+
+.redes {
+    width: 100px;
+    height: 100px;
+    background-color: cornsilk;
+    border: #000 1px solid;
+    box-sizing: border-box;
+}
