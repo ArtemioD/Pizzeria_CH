@@ -1,40 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
+
     <link rel="stylesheet" href="style/stile.css">
-    <title>Pizzeria Don PePe</title>
+
+    <title>Pizzeria ¡Qué locura!</title>
 </head>
+
 <body>
 
     <!-- cabecera -->
     <header>
-        <div id="simbolo">Simbolo</div>
-        <div class="redes" >redes</div>
-        <div id="buscar">buscador</div>
-        <div id="registro">registro</div>
+        <div id="simbolo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="pizza">
+            </a>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/inst.png" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/face.png" alt="facebook">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="img/youtube.png" alt="youtube">
+            </a>
+        </div>
+        <div id="buscar">
+            <img src="img/delivery.jpg" alt="">
+        </div>
+        <div id="carrito">
+            <button id="btn_carrito">Mostrar Carrito</button>
+        </div>
     </header>
+    <div id="mostrar_carrito"></div>
 
     <!-- navegacion -->
-    <nav></nav>
+    <nav id="navegacion">
+        <button id="home" class="btn_navegacion">Home</button>
+        <button id="tienda" class="btn_navegacion">Tienda</button>
+        <button id="historia" class="btn_navegacion">Historia</button>
+        <button id="contacto" class="btn_navegacion">Contacto</button>
+    </nav>
 
     <!-- representa al contenido principal -->
-    <main>
-
+    <div id="rec">
         <!-- define secciones de un documento -->
-        <section></section>
+        <section id="horario">
+            <div>
+                <p>Abierto 24hs</p>
+            </div>
+            <div>
+                <p>Mas de 10 variedades</p>
+            </div>
+            <div>
+                <p>Pedidios por telefono o online</p>
+            </div>
+            <div>
+                <p>Delivery a tu domicilio</p>
+            </div>
+        </section>
+    </div>
 
-        <!-- especifica contenido independiente ej: un mensaje en un foro, comentarios, etc -->
-        <article></article>
-
-    </main>
-
-    <!-- barra lateral -->
-    <aside></aside>
+    <main id="pizzas"></main>
 
     <!-- informacion institucional -->
-    <footer></footer>
-    
+    <footer>
+        <div class="redes">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/inst.png" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/face.png" alt="facebook">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="img/youtube.png" alt="youtube">
+            </a>
+        </div>
+        <p class="caja"><p>
+    </footer>
+    <script></script>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/pizza.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/tienda.js"></script>
+    <script src="js/historia.js"></script>
+    <script src="js/contacto.js"></script>
+    <script src="js/carrito.js"></script>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
